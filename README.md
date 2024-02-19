@@ -11,3 +11,6 @@ Dice Types: Choose from various dice types, including standard 6-sided dice, 4-s
 Dice Modifiers: Apply positive or negative modifiers to the roll results.
 Multiple Rolls: Specify the number of times to roll the dice for each throw.
 Statistics: Calculate basic statistics for multiple rolls, such as the sum, average, minimum, and maximum values.
+
+
+I hope this enhanced README file provides a clear and informative overview of your Rollic project!
