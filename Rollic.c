@@ -10,7 +10,7 @@ int main() {
 
   printf("Enter the number of dice rolls: "); 
 
-  scanf("%d", &num_rolls); 
+   scanf("%d", &num_rolls); 
 
   // Seed the random number generator with the current time 
 
