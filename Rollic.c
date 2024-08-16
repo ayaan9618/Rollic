@@ -1,8 +1,6 @@
 //this project done 
 #include <stdlib.h> 
-
 #include <stdio.h> 
-
 #include <time.h> 
 
 int main() { 
