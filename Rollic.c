@@ -3,11 +3,11 @@
 #include <stdio.h> 
 #include <time.h>
 
- int random(int num_rolls){
+int random(int num_rolls){
   // Generate the specified number of random dice rolls 
 
   for (int i = 0; i < num_rolls; i++) { 
-// Generates a random number between 1 and 6
+ // Generates a random number between 1 and 6
     int roll = (rand() % 6) + 1; 
  
 
