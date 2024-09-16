@@ -1,7 +1,20 @@
 //Welcome to rollic
 #include <stdlib.h> 
 #include <stdio.h> 
-#include <time.h> 
+#include <time.h>
+
+ int random(int num_rolls){
+  // Generate the specified number of random dice rolls 
+
+  for (int i = 0; i < num_rolls; i++) { 
+// Generates a random number between 1 and 6
+    int roll = (rand() % 6) + 1; 
+ 
+
+    printf("Roll %d: %d\n", i+1, roll); 
+  }
+
+}
 
 int main() { 
 
@@ -16,7 +29,9 @@ int main() {
 
   srand(time(NULL)); 
 
-  // Generate the specified number of random dice rolls 
+  random(num_rolls);
+
+  /*// Generate the specified number of random dice rolls 
 
   for (i = 0; i < num_rolls; i++) { 
 // Generates a random number between 1 and 6
@@ -25,7 +40,7 @@ int main() {
 
     printf("Roll %d: %d\n", i+1, roll); 
 
-  } 
+  } */
 
   return 0; 
 
